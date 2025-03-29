@@ -1,0 +1,22 @@
+.contenedor-slider
+{
+    width: 100%;
+    overflow: hidden;
+}
+
+#slider
+{
+    width: 2500px;
+    height: 220px;
+    background-image: url(../img/slide.jpg);
+    background-size: 55% 100%;
+    animation: slider 70s infinite linear; 
+    filter: sepia(55%);
+}
+
+
+@keyframes slider {
+    to {
+        background-position: 2500px;
+    }
+}
